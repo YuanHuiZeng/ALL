@@ -24,4 +24,5 @@ jobs:
     - name: '运行 【助力池】'
       run: |
         node assistance.js
-
+      env:
+        Fen_COOKIE: ${{ secrets.JD_COOKIE }}
